@@ -5,7 +5,19 @@ import CardItem from './CardItem'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <div className='intro'>
+      <p>
+      Te presentamos <strong>Café Cafeso</strong>, orgulloso cafe del soconusco y su hermoso legado. 
+      Un agradecimiento a quienes llenaron de magia los cultivos de nuestra reserva cafetera.
+      </p>
+      <p>
+      Cafeso nace para llevar la herencia de nuestro país a cada rincón del mundo,
+      rindiéndole un homenaje al campesino chiapaneco y su amor por la Tierra.
+      No podríamos hacerlo de otra manera que con un <strong> Café gourmet organico </strong> de origen 100% Chipaneco
+      y con la Maestría de los procesos Ancestrales de los Cafés Especiales que pongan nuestra
+      Cultura en el lugar que se merece.
+      </p>
+      </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

@@ -3,8 +3,21 @@
   background: #fff;
 }
 
+.intro{
+  margin: 10px 50px 10px 50px;
+  
+}
+
 h1 {
   text-align: center;
+}
+
+p {
+  line-height: 1.2; 
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .cards__container {
