@@ -31,7 +31,7 @@ function Footer() {
               className='footer-textarea '
               name='mensaje'
               type='text'
-              placeholder='Tu mensaje'
+              placeholder='  Tu mensaje'
             />
             <Button buttonStyle='btn--outline'>Enviar</Button>
           </form>
@@ -47,46 +47,33 @@ function Footer() {
           </div>
           <small class='website-rights'>Cafeso © 2021</small>
           <div class='social-icons'>
-            <Link
+          <a 
+              href="https://www.facebook.com/ELKCAFESO/"
               class='social-icon-link facebook'
-              to='/'
               target='_blank'
               aria-label='Facebook'
+              rel="noreferrer"
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
+            </a>
+            <a 
+              href="https://www.instagram.com"
+              class='social-icon-link Instagram'
               target='_blank'
               aria-label='Instagram'
+              rel="noreferrer"
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            </a>
+            <a 
+              href="https://www.linkedin.com"
+              class='social-icon-link linkedin'
               target='_blank'
               aria-label='LinkedIn'
+              rel="noreferrer"
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

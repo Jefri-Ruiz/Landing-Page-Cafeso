@@ -158,12 +158,16 @@
   .footer-input {
     width: 100%;
   }
+  .footer-textarea{
+    width: 100%;
+  }
 
   .btn {
     width: 100%;
   }
 
   .footer-link-wrapper {
+    align-content: center;
     flex-direction: column;
   }
 
