@@ -11,13 +11,6 @@ function HeroSection() {
       <h1>El café gourmet de Chiapas </h1>
       <p>Explora la escencia de cafeso</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Iniciar
-        </Button>
       </div>
     </div>
   );
