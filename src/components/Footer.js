@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -40,12 +39,7 @@ function Footer() {
       
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Cafeso
-            </Link>
-          </div>
-          <small class='website-rights'>Cafeso © 2021</small>
+          <small class='website-rights'>Cafeso © 2021 Todos los derechos reservados</small>
           <div class='social-icons'>
           <a 
               href="https://www.facebook.com/ELKCAFESO/"

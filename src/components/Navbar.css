@@ -29,6 +29,16 @@
   align-items: center;
 }
 
+.navbar-logo .divlogo{
+  height: 70px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.navbar-logo .divlogo img{
+  width: 100%;
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
@@ -154,5 +164,26 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+
+  .navbar-logo {
+    top: -40px;
+    color: #fff;
+    justify-self: start;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo .divlogo{
+    height: 70px;
+    width: 100px;
+    
+  }
+  
+  .navbar-logo .divlogo img{
+    width: 100%;
   }
 }

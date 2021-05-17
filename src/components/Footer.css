@@ -147,7 +147,9 @@
 
 .website-rights {
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
 }
 
 @media screen and (max-width: 820px) {
@@ -173,6 +175,12 @@
 
   .social-media-wrap {
     flex-direction: column;
+  }
+
+  .website-rights {
+    align-content: center;
+    color: #fff;
+    margin-bottom: 30px;
   }
 }
 

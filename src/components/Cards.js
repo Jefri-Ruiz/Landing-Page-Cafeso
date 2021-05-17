@@ -1,6 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem'
+import bolsa from '../images/Bolsa.png';
+import bolsa2 from '../images/Bolsa2.png';
+import bolsa3 from '../images/Bolsa3.png';
+import bolsa4 from '../images/Bolsa4.png';
+import bolsa5 from '../images/Bolsa5.png';
 
 function Cards() {
   return (
@@ -22,35 +27,36 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='../images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src={bolsa2}
+              text='La mas alta calidad de la reserva, especial para paladares exigentes'
+              label='Café
+              Premium'
+              path='/products'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src={bolsa}
+              text='Lleva impregnado en su aroma, el mejor sabor en su estado mas puro'
+              label='Café Natural'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src={bolsa3}
+              text='Un toque frutal unico de ésta tierra volcanica'
+              label='Café Soconusco'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src={bolsa4}
+              text='Experimente una sensación unica con notas de naranja'
+              label='Té de pulpa de café'
+              path='/products'
+            />
+            <CardItem
+              src={bolsa5}
+              text='La mejor textura con un toque preciso de miel'
+              label='Café Miel'
               path='/sign-up'
             />
           </ul>
