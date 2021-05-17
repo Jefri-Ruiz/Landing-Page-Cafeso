@@ -22,6 +22,9 @@ function Cards() {
       y con la Maestría de los procesos Ancestrales de los Cafés Especiales que pongan nuestra
       Cultura en el lugar que se merece.
       </p>
+      <p>
+        <strong>Nuestros productos</strong>
+      </p>
       </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
